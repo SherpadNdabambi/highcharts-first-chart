@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 1.6rem;
+	margin: auto;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
+
+.center {
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+}
+
+.center.middle {
+	transform: translate(-50%, -50%);
+}
+
+.container {
+	position: relative;
+}
+
+#copyright {
+	text-align: center;
+}
+
+footer {
+	height: 100px;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 3.25rem;
+}
+
+.hidden {
+	display: none;
+}
+
+html {
+	/* Setting a base font size of 10px give us easier rem calculations
+	   Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth */
+	font-size: 10px;
+}
+
+main {
+	height: calc(100vh - 100px);
+}
+
+.middle {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.right {
+	position: absolute;
+	right: 0;
+}
+
+.top {
+	position: absolute;
+	top: 0;
+}
